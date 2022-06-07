@@ -67,4 +67,9 @@ public class StudentController {
         mv.setViewName("delete");
         return mv;
     }
+
+    @GetMapping("/test")
+public String test(){
+    return "Salum ";
+}
 }
